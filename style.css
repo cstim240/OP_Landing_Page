@@ -1,42 +1,54 @@
+* {
+    margin:0;
+}
+
 body {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     font-family: sans-serif;
+    gap: 0px;
 }
 
 .header {
+    width: 100%;
     display: flex;
+    flex: 0 0 auto;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    gap: 20px;
     background-color: #1F2937;
-    flex: 0 0 auto;
     padding: 20px 20px 0px 20px; 
-    width: 700px;
 }
 
 .topHeader {
     color: white;
     display: flex;
-    justify-content: space-between;
-    gap: 20px;
+    justify-content: center;
+    flex: 1 1 auto;
+    max-width: 100%;
+    gap: 50px;
 }
 
 #topTitle {
-    font-size: 25px;
-    flex: 0 0 auto;
+    font-size: 36px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    flex: 1 1 auto;
     align-self: center;
 }
 
 ul {
     display: flex;
-    justify-content: space-evenly;
-    gap: 10px;
+    justify-content: space-between;
+    align-self: center;
+    flex: 1 1 auto;
 }
 
 li {
+    width: 80px;
     font-size: 15px;
     list-style-type: none;
 }
@@ -47,14 +59,29 @@ a {
 }
 
 .botHeader {
+    width: 80%;
     display: flex;
-    justify-content: space-between;
+    flex: 1 1 auto;
+    justify-content: center;
     padding: 30px 60px 60px 60px; /* top right bot left*/
     gap: 15px;
 }
 
+.botHeader img {
+    margin-left: 20px;
+    min-width: 250px;
+    min-height: 150px;
+
+    max-width: 400px;
+    max-height: 300px;
+}
+
 .headInfo {
     color: #F9FAF8;
+    max-width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 
 .hook {
@@ -65,6 +92,7 @@ a {
 
 .description {
     font-weight: lighter;
+    width: 80%;
 }
 
 button {
@@ -76,19 +104,16 @@ button {
     color: #F9FAF8;
     border: none;
     border-radius: 4px;
+    margin-top: 10px;
 }
 
-.botHeader img {
-    width: 400px;
-    height: 300px;
-}
 
 .section2 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    flex: 0 0 auto;
+    flex: 1 1 auto;
     padding: 30px 20px 0px 20px; 
     width: 700px;
     gap: 20px;
@@ -130,10 +155,10 @@ h2 {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    flex: 0 0 auto;
+    flex: 1 1 auto;
     margin-top: 60px;
     padding: 30px 10px 30px 10px; 
-    width: 700px;
+    width: 100%;
     gap: 20px;
     background-color: #E5E7EB;
 }
@@ -142,6 +167,7 @@ h3 {
     font-style: italic;
     padding: 30px 30px 0px 30px;
     font-weight: 200;
+    width: 700px;
 }
 
 .testimonialDog {
@@ -172,8 +198,8 @@ h3 {
 .sec4Info {
     display: flex;
     flex-direction: column;
-    flex: 1;
-    justify-content: start;
+    flex: 1 1 auto;
+    justify-content: space-evenly;
     font-size: 12px;
     color: white;
     width: 280px;
@@ -192,7 +218,7 @@ h3 {
 }
 
 .footer {
-    width: 720px;
+    width: 100%;
     display: flex;
     justify-content: center;
     color: #F9FAF8;
