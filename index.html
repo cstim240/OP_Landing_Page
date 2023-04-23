@@ -14,17 +14,19 @@
     <body>
         <div class="header">
             <div class="topHeader">
-                <p>Depressed Doggos</p>
-                <a href="#"> header link one</a>
-                <a href="#"> header link two</a>
-                <a href="#"> header link three</a>
+                <div id="topTitle">Depressed Dogs</div>
+                <ul>
+                    <li><a href="#"> header link one</a></li>
+                    <li><a href="#"> header link two</a></li>
+                    <li><a href="#"> header link three</a></li>
+                </ul>
             </div>
 
             <div class="botHeader">
-                <div class="headInfo">
-                    <h1>Do you have a depressed doggo?</h1>
-                    <p>This website was designed to help you diagnose if your dog has depression.</p>
-                    <button> Register </button>
+                <div class="headInfo" id="regs">
+                    <p class="hook">Do you have a depressed doggo?<p>
+                    <p class="description">This website is designed to help you diagnose dog depression.</p>
+                    <button><a href="#signUp">Register</a></button>
                 </div>
                 <img src="./images/nalaOnCouch.jpg" alt="an image of a sad dog"/>
             </div>
@@ -59,17 +61,21 @@
             <h3>Arf arf arf ruff, arf ruff ruff ruff bark bark ruff ruff! Arf bark? Bark ruff ruff awooooo ruff. BARK BARK! Bark, arf arf arf bark bark... bark. Bark arf bark bark.</h3>
             <div class="testimonialDog">
                 <h4>-Nala, no longer a depressed dog</h4>
-                <img src="./images/winkyNala.jpg" alt="a happy Dog named Nala who is winking" />
+                <img src="./images/winkyNala.png" alt="a happy Dog named Nala who is winking" />
             </div>
         </div>
 
-        <div class="footer">
-            <div class="footerInfo">
-                <p> Help us spread awareness about dog depression! </p>
-                <p>Sign up for early clinical trials and help us fund our research to save our sad dogs!</p>
+        <div class="section4">
+            <div class="sec4Info">
+                <div id="signUp"><p class="helpUs"> Help us spread awareness about dog depression!</p></div>
+                <div><p>Sign up for early clinical trials and help us fund our research to save our sad dogs!</p></div>       
             </div>
 
-            <button>Sign up!</button>
+            <button><a href="#regs">Sign up!</a></button>
+        </div>
+
+        <div class="footer">
+            <p>Copyright © Tim Supan [The Odin Project] 2023</p>
         </div>
 
     </body>
