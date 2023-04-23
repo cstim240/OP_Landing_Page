@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-    flex: 0 0 auto;
+    justify-content: space-between;
     align-items: center;
     font-family: sans-serif;
 }
