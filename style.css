@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-    flex: 1 1 auto;
+    flex: 0 0 auto;
     align-items: center;
     font-family: sans-serif;
 }
@@ -12,7 +12,7 @@ body {
     align-items: center;
     justify-content: space-between;
     background-color: #1F2937;
-    flex: 1 1 auto;
+    flex: 0 0 auto;
     padding: 20px 20px 0px 20px; 
     width: 700px;
 }
@@ -26,7 +26,7 @@ body {
 
 #topTitle {
     font-size: 25px;
-    flex: 1 1 auto;
+    flex: 0 0 auto;
     align-self: center;
 }
 
@@ -88,7 +88,7 @@ button {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    flex: 1 1 auto;
+    flex: 0 0 auto;
     padding: 30px 20px 0px 20px; 
     width: 700px;
     gap: 20px;
@@ -129,7 +129,7 @@ h2 {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    flex: 1 1 auto;
+    flex: 0 0 auto;
     margin-top: 60px;
     padding: 30px 10px 30px 10px; 
     width: 700px;
@@ -171,7 +171,7 @@ h3 {
 .sec4Info {
     display: flex;
     flex-direction: column;
-    flex: 1;
+    flex: 0;
     justify-content: start;
     font-size: 12px;
     color: white;
